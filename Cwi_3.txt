@@ -1,0 +1,20 @@
+1. 
+link: http://localhost:65342/api/Departments
+
+{
+    "name": "DeptName"
+}
+
+2. PUT MODE
+link: http://localhost:65342/api/Departments/5
+{
+	"departmentId": 5,
+	"name": "ModifiedDept"
+}
+
+3. DELETE MODE
+link: http://localhost:65342/api/Departments/5
+{
+	"departmentId": 5,
+	"name": "ModifiedDept"
+}
